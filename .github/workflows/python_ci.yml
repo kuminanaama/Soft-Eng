@@ -21,7 +21,8 @@ jobs:
 
       #Step 3: Install dependencies
       - name: Install dependencies
-        run: python -m pip install unittest
+        run: python -m pip install --upgrade pip
+             python -m pip install unittest
 
           #Step 4: Run tests
       - name: Run unit tests

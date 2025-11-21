@@ -19,6 +19,10 @@ jobs:
         with:
           python-version: '3.10'
 
+      #Step 3: Install dependencies
+      - name: Install dependencies
+        run: python -m pip intall unittest
+
           #Step 4: Run tests
       - name: Run unit tests
         #If using unittest:
